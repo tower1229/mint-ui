@@ -22,9 +22,9 @@ const install = function(Vue, config = {}) {
     attempt: 3
   }, config.lazyload));
 
-  Vue.$messagebox = Vue.prototype.$messagebox = MessageBox;
-  Vue.$toast = Vue.prototype.$toast = Toast;
-  Vue.$indicator = Vue.prototype.$indicator = Indicator;
+  Vue.MessageBox = Vue.prototype.MessageBox = MessageBox;
+  Vue.Toast = Vue.prototype.Toast = Toast;
+  Vue.Indicator = Vue.prototype.Indicator = Indicator;
 };
 
 // auto install

@@ -34,7 +34,7 @@ import PaletteButton from '../packages/palette-button';
 import '../src/assets/font/iconfont.css';
 import merge from './utils/merge';
 
-const version = '2.2.13-1';
+const version = '0.0.3';
 const install = function(Vue, config = {}) {
   if (install.installed) return;
 
@@ -72,9 +72,9 @@ const install = function(Vue, config = {}) {
     attempt: 3
   }, config.lazyload));
 
-  Vue.$messagebox = Vue.prototype.$messagebox = MessageBox;
-  Vue.$toast = Vue.prototype.$toast = Toast;
-  Vue.$indicator = Vue.prototype.$indicator = Indicator;
+  Vue.MessageBox = Vue.prototype.MessageBox = MessageBox;
+  Vue.Toast = Vue.prototype.Toast = Toast;
+  Vue.Indicator = Vue.prototype.Indicator = Indicator;
 };
 
 // auto install
