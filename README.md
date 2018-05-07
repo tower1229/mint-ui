@@ -1,3 +1,5 @@
+> Mint UI看样子是停止维护了，不小心掉坑里了，只好自己维护一个分支，哎
+
 # Mint UI
 
 [![Build Status](https://travis-ci.org/ElemeFE/mint-ui.svg?branch=master)](https://travis-ci.org/ElemeFE/mint-ui)
