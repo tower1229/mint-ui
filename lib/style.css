@@ -959,39 +959,6 @@ animation-delay: -1.0s;
 /* Checklist Component */
 /* Radio Component */
 /* z-index */
-.mint-datetime {
-    width: 100%;
-}
-.mint-datetime .picker-slot-wrapper, .mint-datetime .picker-item {
-    -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-}
-.mint-datetime .picker-toolbar {
-    border-bottom: solid 1px #eaeaea;
-}
-.mint-datetime-action {
-    display: inline-block;
-    width: 50%;
-    text-align: center;
-    line-height: 40px;
-    font-size: 16px;
-    color: #26a2ff;
-}
-.mint-datetime-cancel {
-    float: left;
-}
-.mint-datetime-confirm {
-    float: right;
-}
-/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
-/* z-index */
 .mint-radiolist .mint-cell {
     padding: 0;
 }
@@ -1012,6 +979,9 @@ animation-delay: -1.0s;
 .mint-radio-label {
     vertical-align: middle;
     margin-left: 6px;
+}
+.mint-radio-raw {
+    margin: 6px 0 6px 30px;
 }
 .mint-radio-input {
     display: none;
@@ -1049,6 +1019,39 @@ animation-delay: -1.0s;
     height: 8px;
     transition: transform .2s;
     transform: scale(0);
+}
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* z-index */
+.mint-datetime {
+    width: 100%;
+}
+.mint-datetime .picker-slot-wrapper, .mint-datetime .picker-item {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+.mint-datetime .picker-toolbar {
+    border-bottom: solid 1px #eaeaea;
+}
+.mint-datetime-action {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #26a2ff;
+}
+.mint-datetime-cancel {
+    float: left;
+}
+.mint-datetime-confirm {
+    float: right;
 }
 /* Cell Component */
 /* Header Component */

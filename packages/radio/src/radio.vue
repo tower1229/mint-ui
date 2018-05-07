@@ -15,7 +15,7 @@
           <span class="mint-radio-core"></span>
         </span>
         <span class="mint-radio-label" v-text="option.label || option"></span>
-        <div v-if="option.raw" v-html="option.raw"></div>
+        <div class="mint-radio-raw" v-if="option.raw" v-html="option.raw"></div>
       </label>
     </x-cell>
   </div>
@@ -105,6 +105,10 @@ export default {
       @descendent label {
         vertical-align: middle;
         margin-left: 6px;
+      }
+
+      @descendent raw {
+        margin: 6px 0 6px 30px;
       }
 
       @descendent input {
