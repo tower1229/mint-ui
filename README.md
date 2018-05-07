@@ -1,5 +1,10 @@
 > Mint UI看样子是停止维护了，不小心掉坑里了，只好自己维护一个分支，哎
 
+## Installation
+```shell
+npm i tower1229-mint -S
+```
+
 # Mint UI
 
 [![Build Status](https://travis-ci.org/ElemeFE/mint-ui.svg?branch=master)](https://travis-ci.org/ElemeFE/mint-ui)
@@ -14,15 +19,6 @@
 - [Homepage](http://mint-ui.github.io)
 - [Documentation](http://mint-ui.github.io/docs)
 
-
-
-## Installation
-```shell
-npm i mint-ui -S
-
-# for Vue 1.x
-npm i mint-ui@1 -S
-```
 
 ## Usage
 
@@ -82,17 +78,6 @@ Usage
   ]]]
 }
 ```
-
-## CDN
-RawGit
-
-- https://cdn.rawgit.com/ElemeFE/mint-ui/master/lib/index.js
-- https://cdn.rawgit.com/ElemeFE/mint-ui/master/lib/style.css
-
-NPMCDN
-
-- https://unpkg.com/mint-ui/lib/index.js
-- https://unpkg.com/mint-ui/lib/style.css
 
 ## Development
 
